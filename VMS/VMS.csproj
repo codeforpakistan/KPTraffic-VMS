@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C23731D-526F-4882-962C-7FD850C4C5FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VMS</RootNamespace>
+    <AssemblyName>VMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.7.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebCam_Capture">
+      <HintPath>..\..\..\..\..\Desktop\WebCam_Capture.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BC\BC_CheckIn.cs" />
+    <Compile Include="BC\BC_CheckOut.cs" />
+    <Compile Include="BC\BC_Reports.cs" />
+    <Compile Include="BC\BC_USERS.cs" />
+    <Compile Include="BC\DatabaseConnections.cs" />
+    <Compile Include="BC\MngFormOps.cs" />
+    <Compile Include="BC\UserData.cs" />
+    <Compile Include="BC\WebCam.cs" />
+    <Compile Include="dbVisManDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbVisManDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbVisManDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbVisManDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbVisManDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbVisManDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbVisManDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbVisManDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsVisitorDetailWithImages.cs">
+      <DependentUpon>dsVisitorDetailWithImages.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsVisitorDetailWithImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVisitorDetailWithImages.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmCheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmCheckIn.Designer.cs">
+      <DependentUpon>frmCheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmCheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmCheckOut.Designer.cs">
+      <DependentUpon>frmCheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmMainFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmMainFrom.Designer.cs">
+      <DependentUpon>frmMainFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\frmReportCheckOutWithBadges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportCheckOutWithBadges.Designer.cs">
+      <DependentUpon>frmReportCheckOutWithBadges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportDailyWithImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportDailyWithImages.Designer.cs">
+      <DependentUpon>frmReportDailyWithImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportDateWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportDateWise.Designer.cs">
+      <DependentUpon>frmReportDateWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportVisitsByVisitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportVisitsByVisitor.Designer.cs">
+      <DependentUpon>frmReportVisitsByVisitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmRptCharts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmRptCharts.Designer.cs">
+      <DependentUpon>frmRptCharts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmVisitorDataBetweenDatesWithImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmVisitorDataBetweenDatesWithImages.Designer.cs">
+      <DependentUpon>frmVisitorDataBetweenDatesWithImages.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmCheckIn.resx">
+      <DependentUpon>frmCheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmCheckOut.resx">
+      <DependentUpon>frmCheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmMainFrom.resx">
+      <DependentUpon>frmMainFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rdlcs\ReportChkOutWithBadge.rdlc" />
+    <EmbeddedResource Include="Rdlcs\ReportDailyWithImages.rdlc" />
+    <EmbeddedResource Include="Rdlcs\ReportDateWiseDaily.rdlc" />
+    <EmbeddedResource Include="Rdlcs\ReportNoofVisitsByVisitor.rdlc" />
+    <EmbeddedResource Include="Reports\frmReportCheckOutWithBadges.resx">
+      <DependentUpon>frmReportCheckOutWithBadges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportDailyWithImages.resx">
+      <DependentUpon>frmReportDailyWithImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportDateWise.resx">
+      <DependentUpon>frmReportDateWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportVisitsByVisitor.resx">
+      <DependentUpon>frmReportVisitsByVisitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmRptCharts.resx">
+      <DependentUpon>frmRptCharts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmVisitorDataBetweenDatesWithImages.resx">
+      <DependentUpon>frmVisitorDataBetweenDatesWithImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dbVisManDataSet.xsc">
+      <DependentUpon>dbVisManDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbVisManDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbVisManDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbVisManDataSet.xss">
+      <DependentUpon>dbVisManDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbVisManDataSet1.xsc">
+      <DependentUpon>dbVisManDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbVisManDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbVisManDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbVisManDataSet1.xss">
+      <DependentUpon>dbVisManDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbVisManDataSet2.xsc">
+      <DependentUpon>dbVisManDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbVisManDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbVisManDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbVisManDataSet2.xss">
+      <DependentUpon>dbVisManDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbVisManDataSet3.xsc">
+      <DependentUpon>dbVisManDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbVisManDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbVisManDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbVisManDataSet3.xss">
+      <DependentUpon>dbVisManDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dsVisitorDetailWithImages.xsc">
+      <DependentUpon>dsVisitorDetailWithImages.xsd</DependentUpon>
+    </None>
+    <None Include="dsVisitorDetailWithImages.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVisitorDetailWithImages.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsVisitorDetailWithImages.xss">
+      <DependentUpon>dsVisitorDetailWithImages.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visitormangt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Centralized-Visitor-Management.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Centralized-Visitor-Management1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visit-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tflogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfp-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Centralized-Visitor-Managem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charticon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
