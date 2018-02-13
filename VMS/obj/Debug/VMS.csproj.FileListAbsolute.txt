@@ -1,0 +1,43 @@
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\bin\Debug\VMS.exe.config
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.FORMS.frmCheckIn.resources
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.FORMS.frmLogin.resources
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\bin\Debug\VMS.exe
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\bin\Debug\VMS.pdb
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.exe
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\obj\Debug\VMS.pdb
+c:\users\user\documents\visual studio 2013\Projects\VMS\VMS\bin\Debug\WebCam_Capture.dll
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\bin\Debug\VMS.exe
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\bin\Debug\VMS.pdb
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\bin\Debug\VMS.exe.config
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.csprojResolveAssemblyReference.cache
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.Form1.resources
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.FORMS.frmCheckIn.resources
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.FORMS.frmLogin.resources
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.Properties.Resources.resources
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.csproj.GenerateResource.Cache
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.exe
+C:\Users\Nazim\Downloads\vms-proj\vms proj\VMS\VMS\obj\Debug\VMS.pdb
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\bin\Debug\VMS.exe.config
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\bin\Debug\VMS.exe
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\bin\Debug\VMS.pdb
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.Form1.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.FORMS.frmCheckIn.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.FORMS.frmCheckOut.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.FORMS.frmLogin.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.FORMS.frmMainFrom.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.FORMS.frmUser.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.Properties.Resources.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.Reports.frmReportDailyWithImages.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.Reports.frmReportDateWise.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.Reports.frmRptCharts.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.Reports.frmVisitorDataBetweenDatesWithImages.resources
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.exe
+C:\Users\User\Desktop\Traffic Police\VMS\VMS\obj\Debug\VMS.pdb
+C:\Users\Nazim\Downloads\VMS\VMS\VMS\bin\Debug\VMS.exe
